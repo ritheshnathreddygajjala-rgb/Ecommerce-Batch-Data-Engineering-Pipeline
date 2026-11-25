@@ -21,6 +21,8 @@ To build a reliable data pipeline that processes e-commerce transactions and gen
 
 Raw CSV Files → Bronze Layer → Silver Layer → Gold Layer → Business Reporting
 
+![E-commerce Data Engineering Architecture](screenshots/ecommerce_architecture.png)
+
 ### 1. Bronze Layer
 - Ingested raw e-commerce CSV files using Databricks Auto Loader.
 - Added ingestion timestamp and source file metadata.
